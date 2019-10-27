@@ -1,0 +1,5 @@
+#!/usr/bin/bash
+
+cd ..
+rm .bashrc
+ln -s ~/Dotfiles/bash/.bashrc .bashrc
