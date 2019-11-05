@@ -1,5 +1,5 @@
 #!/usr/bin/bash
 
 cd ..
-rm .bashrc
+test -f ~/.bashrc && rm .bashrc
 ln -s ~/Dotfiles/bash/.bashrc .bashrc
