@@ -1,5 +1,20 @@
 #!/usr/bin/bash
 
-cd ..
+cd
+test -f ~/.rbenv && rm .rbenv
+ln -s ~/Dotfiles/.rbenv .rbenv
+
+echo "Symlink to .rbenv installed"
+
+
+cd
 test -f ~/.bashrc && rm .bashrc
 ln -s ~/Dotfiles/bash/.bashrc .bashrc
+
+echo "Symlink to .bashrc installed"
+
+cd
+test -f ~/.gitconfig && rm .gitconfig
+ln -s ~/Dotfiles/.gitconfig .gitconfig
+
+echo "Symlink to .gitconfig installed"
