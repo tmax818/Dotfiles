@@ -1,0 +1,6 @@
+#!/usr/bin/bash
+
+cd
+
+cp $HOME/Dotfiles/bin/.Xmodmap $HOME 
+xmodmap ~/.Xmodmap
