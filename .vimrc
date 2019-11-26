@@ -36,6 +36,18 @@ au VimLeave * :silent !xmodmap -e 'clear Lock' -e 'keycode 0x42 = Caps_Lock'
 "this turns on syntax highlighting
 syntax on
 
+"""Closing Brackets"""""
+
+inoremap " ""<left>
+inoremap ' ''<left>
+inoremap ( ()<left>
+inoremap [ []<left>
+inoremap { {}<left>
+inoremap {<CR> {<CR>}<ESC>O
+inoremap {;<CR> {<CR>};<ESC>O
+
+"""" Leader Mappings""""""""
+
 let mapleader=","
 
 
@@ -43,7 +55,6 @@ nnoremap <C-n> :NERDTreeToggle<CR>
 nnoremap <leader>" viw<esc>a"<esc>bi"<esc>lel
 
 
-"""" Leader Mappings""""""""
-
+map <leader>w <C-w> 
 map <leader>ev :vsplit $MYVIMRC<cr>
 map <leader>sv :source $MYVIMRC<cr>
