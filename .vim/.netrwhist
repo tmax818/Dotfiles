@@ -1,8 +1,7 @@
 let g:netrw_dirhistmax  =10
-<<<<<<< HEAD
-let g:netrw_dirhist_cnt =2
-let g:netrw_dirhist_1='/home/tmax818/Code/i3'
-let g:netrw_dirhist_2='/home/tmax818/Code/learn/nodejs'
-=======
-let g:netrw_dirhist_cnt =0
->>>>>>> 850fb6e0b9fb581deaa9e43b5e3a38e0a1328705
+let g:netrw_dirhist_cnt =5
+let g:netrw_dirhist_1='/home/tmax818/Dotfiles'
+let g:netrw_dirhist_2='/home/tmax818/Dotfiles/.git'
+let g:netrw_dirhist_3='/home/tmax818/Dotfiles'
+let g:netrw_dirhist_4='/home/tmax818/Dotfiles/bin'
+let g:netrw_dirhist_5='/home/tmax818/Code/learn/nodejs'

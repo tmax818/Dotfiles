@@ -1,10 +1,8 @@
 
-<<<<<<< HEAD
 
 
 
 
-=======
 """"""""""""""Settings""""""""""""""""""
 
 set number
@@ -34,7 +32,6 @@ au VimLeave * :silent !xmodmap -e 'clear Lock' -e 'keycode 0x42 = Caps_Lock'
 
 
 "this turns on syntax highlighting
->>>>>>> 850fb6e0b9fb581deaa9e43b5e3a38e0a1328705
 syntax on
 
 let mapleader=","
