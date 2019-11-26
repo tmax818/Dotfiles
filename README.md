@@ -67,3 +67,11 @@ Now that you've installed Rails, you can run the rails -v command to make sure y
 rails -v
 # Rails 6.0.0
 ```
+
+## Setting Up PostgreSQL
+For PostgreSQL, we're going to add a new repository to easily install a recent version of Postgres.
+
+```
+sudo apt install postgresql-11 libpq-dev
+```
+
