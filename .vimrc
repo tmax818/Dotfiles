@@ -4,6 +4,8 @@
 set number
 set hidden
 set mouse=a
+set cindent
+set tabstop=4
 set laststatus=2
 set statusline=%f         " Path to the file
 set statusline+=\ \       " Separator
