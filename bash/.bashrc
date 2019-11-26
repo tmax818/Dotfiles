@@ -92,6 +92,7 @@ alias ll='ls -alF'
 alias la='ls -la'
 alias l='ls -CF'
 alias c='clear'
+alias python='python3'
 
 # Add an "alert" alias for long running commands.  Use like so:
 #   sleep 10; alert
@@ -130,3 +131,19 @@ source ~/Dotfiles/bash/.git-completion.bash
 export PATH="$HOME/.rbenv/bin:$PATH"
 eval "$(rbenv init -)"
 export PATH="$HOME/.rbenv/plugins/ruby-build/bin:$PATH"
+
+# >>> conda initialize >>>
+# !! Contents within this block are managed by 'conda init' !!
+__conda_setup="$('/home/tmax818/Code/anaconda3/bin/conda' 'shell.bash' 'hook' 2> /dev/null)"
+if [ $? -eq 0 ]; then
+    eval "$__conda_setup"
+else
+    if [ -f "/home/tmax818/Code/anaconda3/etc/profile.d/conda.sh" ]; then
+        . "/home/tmax818/Code/anaconda3/etc/profile.d/conda.sh"
+    else
+        export PATH="/home/tmax818/Code/anaconda3/bin:$PATH"
+    fi
+fi
+unset __conda_setup
+# <<< conda initialize <<<
+
